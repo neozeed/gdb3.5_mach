@@ -1,0 +1,24 @@
+[ ./mips-opcode.h ]
+Shifts were all screwed up [Noted by jmiller@macadamia.cs.brandeis.edu].
+
+[ ./mips-pinsn.c ]
+PC-relative long jumps use all of the higher 4 bits.
+[Noted by jmiller@macadamia.cs.bandeis.edu]
+[ ./mipsmach-dep.c ]
+Moved a bunch of decls in the MI side, where they belong.
+[ ./Makefile ]
+Added i386 defs.
+[90/03/24            af]
+
+Created
+[90/03/20            mrt]
+[ ./sun3mach-dep.c ]
+Moved a bunch of decls in the MI part, where they belong.
+[ ./vaxmach-dep.c ]
+Moved a bunch of decls inthe MI side, where they belong.
+[ ./sparcmach-dep.c ]
+Moved a bunch of decls in the MI side, where they belong.
+
+[ ./ns32kmach-dep.c ]
+Moved a bunch of decls in the MI side, where they belong.
+

@@ -1,0 +1,8 @@
+./Makefile
+./mips-opcode.h
+./mips-pinsn.c
+./mipsmach-dep.c
+./ns32kmach-dep.c
+./sparcmach-dep.c
+./sun3mach-dep.c
+./vaxmach-dep.c
